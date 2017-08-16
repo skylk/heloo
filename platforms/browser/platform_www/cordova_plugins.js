@@ -602,6 +602,22 @@ module.exports = [
             "navigator.notification",
             "navigator"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-fileopener/www/FileOpener.js",
+        "id": "cordova-plugin-fileopener.FileOpener",
+        "pluginId": "cordova-plugin-fileopener",
+        "clobbers": [
+            "cordova.plugins.FileOpener"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+        "id": "cordova-plugin-file-opener2.FileOpener2",
+        "pluginId": "cordova-plugin-file-opener2",
+        "clobbers": [
+            "cordova.plugins.fileOpener2"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -627,7 +643,9 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.2",
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.5",
-    "cordova-plugin-whitelist": "1.2.2"
+    "cordova-plugin-whitelist": "1.2.2",
+    "cordova-plugin-fileopener": "1.0.5",
+    "cordova-plugin-file-opener2": "2.0.19"
 }
 // BOTTOM OF METADATA
 });
