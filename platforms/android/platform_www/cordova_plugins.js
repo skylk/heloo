@@ -366,14 +366,6 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-fileopener.FileOpener",
-        "file": "plugins/cordova-plugin-fileopener/www/FileOpener.js",
-        "pluginId": "cordova-plugin-fileopener",
-        "clobbers": [
-            "cordova.plugins.FileOpener"
-        ]
-    },
-    {
         "id": "cordova-plugin-geolocation.geolocation",
         "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
         "pluginId": "cordova-plugin-geolocation",
@@ -533,6 +525,14 @@ module.exports = [
         "clobbers": [
             "cordova.plugins.fileOpener2"
         ]
+    },
+    {
+        "id": "cordova-plugin-native-spinner.SpinnerDialog",
+        "file": "plugins/cordova-plugin-native-spinner/www/SpinnerDialog.js",
+        "pluginId": "cordova-plugin-native-spinner",
+        "clobbers": [
+            "SpinnerDialog"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -549,7 +549,6 @@ module.exports.metadata =
     "cordova-plugin-dialogs": "1.2.1",
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-file-transfer": "1.5.1",
-    "cordova-plugin-fileopener": "1.0.5",
     "cordova-plugin-geolocation": "2.1.0",
     "cordova-plugin-globalization": "1.0.7",
     "cordova-plugin-inappbrowser": "1.3.0",
@@ -560,7 +559,8 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.5",
     "cordova-plugin-whitelist": "1.2.2",
-    "cordova-plugin-file-opener2": "2.0.19"
+    "cordova-plugin-file-opener2": "2.0.2",
+    "cordova-plugin-native-spinner": "1.1.3"
 };
 // BOTTOM OF METADATA
 });

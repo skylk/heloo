@@ -104,17 +104,14 @@
     <plugin name="cordova-plugin-device-orientation" spec="~1.0.2" />
     <plugin name="cordova-plugin-dialogs" spec="~1.2.0" />
     <plugin name="cordova-plugin-file" spec="~4.1.1" />
-    
-    <plugin name="cordova-plugin-file-opener2" spec="https://github.com/Telerik-Verified-Plugins/FileOpener" />
-    
-  <!--  <plugin name="cordova-plugin-file-opener2" spec="https://github.com/pwlin/cordova-plugin-file-opener2" />  -->
+    <plugin name="cordova-plugin-file-opener2" spec="git+https://github.com/Telerik-Verified-Plugins/FileOpener.git" />
     <plugin name="cordova-plugin-file-transfer" spec="~1.5.0" />
-    <plugin name="cordova-plugin-fileopener" spec="~1.0.5" />
     <plugin name="cordova-plugin-geolocation" spec="~2.1.0" />
     <plugin name="cordova-plugin-globalization" spec="~1.0.3" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.3.0" />
     <plugin name="cordova-plugin-media" spec="~2.2.0" />
     <plugin name="cordova-plugin-media-capture" spec="~1.2.0" />
+    <plugin name="cordova-plugin-native-spinner" spec="^1.1.3" />
     <plugin name="cordova-plugin-network-information" spec="~1.2.0" />
     <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" />
     <plugin name="cordova-plugin-statusbar" spec="~2.1.2" />

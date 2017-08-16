@@ -80,6 +80,8 @@ function otevri(file) {
     
 function otevri2() {    
 
+SpinnerDialog.show(null, "message");
+
 var fileTransfer = new FileTransfer();
 
 var uri = encodeURI("http://pujcovaninaradi.cz/download/cenik.pdf");
@@ -91,6 +93,7 @@ statusDom = document.querySelector('#status');
 		if (progressEvent.lengthComputable) {
 			var perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
 			statusDom.innerHTML = perc + "% loaded...";
+
 		} else {
 			if(statusDom.innerHTML == "") {
 				statusDom.innerHTML = "Loading";

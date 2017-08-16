@@ -27,15 +27,8 @@ var exec = require('cordova/exec');
 function FileOpener2() {}
 
 FileOpener2.prototype.open = function (fileName, contentType, callbackContext) {
-    contentType = contentType || ''; 
     callbackContext = callbackContext || {};
     exec(callbackContext.success || null, callbackContext.error || null, 'FileOpener2', 'open', [fileName, contentType]);
-};
-
-FileOpener2.prototype.showOpenWithDialog = function (fileName, contentType, callbackContext) {
-    contentType = contentType || '';
-    callbackContext = callbackContext || {};
-    exec(callbackContext.success || null, callbackContext.error || null, 'FileOpener2', 'open', [fileName, contentType, false]);
 };
 
 FileOpener2.prototype.uninstall = function (packageId, callbackContext) {

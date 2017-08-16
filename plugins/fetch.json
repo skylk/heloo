@@ -167,18 +167,18 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-fileopener": {
+    "cordova-plugin-file-opener2": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-fileopener"
+            "id": "https://github.com/Telerik-Verified-Plugins/FileOpener"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-file-opener2": {
+    "cordova-plugin-native-spinner": {
         "source": {
             "type": "registry",
-            "id": "https://github.com/pwlin/cordova-plugin-file-opener2"
+            "id": "cordova-plugin-native-spinner"
         },
         "is_top_level": true,
         "variables": {}
