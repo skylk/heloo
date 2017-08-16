@@ -85,6 +85,8 @@ var fileTransfer = new FileTransfer();
 var uri = encodeURI("http://pujcovaninaradi.cz/download/cenik.pdf");
 var fileURL = cordova.file.externalRootDirectory + 'Download/files.pdf';
 
+statusDom = document.querySelector('#status');
+
 	fileTransfer.onprogress = function(progressEvent) {
 		if (progressEvent.lengthComputable) {
 			var perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
