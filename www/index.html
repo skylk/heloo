@@ -55,7 +55,7 @@
     <script type="text/javascript">
         app.initialize();
     </script>
-    <button onclick="DownloadFile('http://www.pujcovaninaradi.cz/download/cenik.pdf', 'Download','cenicek');">Download file1</button>
+    <button onclick="DownloadFile('http://www.pujcovaninaradi.cz/download/cenik.pdf', '/sdcard/Download','cenicek');">Download file1</button>
     <button onclick="alert('Hello! I am an alert box!');">Try it</button>
     <button onclick="a();">a</button>
  
@@ -76,9 +76,37 @@ function otevri(file) {
         }
       );
     };
+    
+    
+function otevri2(file) {    
+// install the 'cordova file transfer' plugin to use this
+var fileTransfer = new FileTransfer();
+
+fileTransfer.download(
+  // download from
+  encodeURI("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"),
+
+  // save to
+  "cdvfile://localhost/persistent/downloaded_logo.png",
+
+  // open the downloaded file
+  function(entry) {
+    var file = entry.toURL();
+    cordova.plugins.fileOpener2.open(
+      file,
+      'image/png',
+      {
+        error : onError,
+        success : onSuccess
+      }
+    );
+  }
+);
+};    
 
 </script>
      <button onclick="otevri('/storage/emulated/0/Download/file.pdf');">Open</button>
+      <button onclick="otevri2();">Stahni a otevri</button>
 
 </body>
 
