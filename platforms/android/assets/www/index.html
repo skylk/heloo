@@ -83,7 +83,7 @@ function otevri2() {
 var fileTransfer = new FileTransfer();
 
 var uri = encodeURI("http://pujcovaninaradi.cz/download/cenik.pdf");
-var fileURL = externalRootDirectory + 'Download/files.pdf';
+var fileURL = cordova.file.externalRootDirectory + 'Download/files.pdf';
 
 fileTransfer.download(
     uri,
