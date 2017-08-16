@@ -82,18 +82,17 @@ function otevri2(file) {
 // install the 'cordova file transfer' plugin to use this
 var fileTransfer = new FileTransfer();
 
-fileTransfer.download(
-  // download from
-  encodeURI("http://pujcovaninaradi.cz/download/cenik.pdf"),
+var uri = encodeURI("http://pujcovaninaradi.cz/download/cenik.pdf");
+var fileURL = '/storage/emulated/0/Download/file.pdf'; 
 
-  // save to
-  "/storage/emulated/0/Download/file.pdf",
+fileTransfer.download(
+    uri,
+    fileURL,
 
   // open the downloaded file
   function(entry) {
-    var file = entry.toURL();
     cordova.plugins.fileOpener2.open(
-      file,
+      fileURL,
       'application/pdf',
       {
         error : onError,
