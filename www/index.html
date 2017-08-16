@@ -78,26 +78,29 @@ function otevri(file) {
     };
     
     
-function otevri2(file) {    
-// install the 'cordova file transfer' plugin to use this
+function otevri2() {    
+
 var fileTransfer = new FileTransfer();
 
 var uri = encodeURI("http://pujcovaninaradi.cz/download/cenik.pdf");
-var fileURL = '/storage/emulated/0/Download/file.pdf'; 
+var fileURL = externalRootDirectory + 'Download/files.pdf';
 
 fileTransfer.download(
     uri,
     fileURL,
-
-  // open the downloaded file
-  function(entry) {
-    cordova.plugins.fileOpener2.open(
-      fileURL,
-      'application/pdf',
-      {
-        error : onError,
-        success : onSuccess
-      }
+    function(entry) {
+      var file = entry.toURL();
+      cordova.plugins.fileOpener2.open(
+        file,
+        'application/pdf',
+        {
+          error : function(e) {
+            alert('Error status: ' + e.status + ' - Error message: ' + e.message);
+          },
+          success : function () {
+            console.log('file opened successfully');
+          }
+        }
     );
   }
 );
