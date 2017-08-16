@@ -80,7 +80,7 @@ function otevri(file) {
     
 function otevri2() {    
 
-
+SpinnerDialog.show();
 
 var fileTransfer = new FileTransfer();
 var procenta;
@@ -93,8 +93,8 @@ statusDom = document.querySelector('#status');
 		if (progressEvent.lengthComputable) {
 			var perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
 			statusDom.innerHTML = perc + "% loaded...";
-      procenta = perc + " %";
-      SpinnerDialog.show("Stahuji PDF", procenta);
+      // procenta = perc + " %";
+      // SpinnerDialog.show("Stahuji PDF", procenta); 
 		} else {
 			if(statusDom.innerHTML == "") {
 				statusDom.innerHTML = "Loading";
@@ -105,12 +105,13 @@ statusDom = document.querySelector('#status');
 	};
 
 
-SpinnerDialog.hide();
+
  
 fileTransfer.download(
     uri,
     fileURL,
     function(entry) {
+      SpinnerDialog.hide();
       var file = entry.toURL();
       cordova.plugins.fileOpener2.open(
         file,
