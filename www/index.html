@@ -87,12 +87,12 @@ cordova.plugin.pDialog.init({
     progressStyle : 'SPINNER',
     cancelable : true,
     title : 'Prosím čekejte...,
-    message : 'Stahuji soubor ' + soubor;
+    message : "Stahuji soubor " + soubor;
 });
 
 var fileTransfer = new FileTransfer();
 var procenta;
-var uri = encodeURI('http://pujcovaninaradi.cz/download/' + soubor);
+var uri = encodeURI("http://pujcovaninaradi.cz/download/" + soubor);
 var fileURL = cordova.file.externalRootDirectory + 'Download/files.pdf';
 
 statusDom = document.querySelector('#status');
