@@ -55,84 +55,14 @@
     <script type="text/javascript">
         app.initialize();
     </script>
-    <button onclick="DownloadFile('http://www.pujcovaninaradi.cz/download/cenik.pdf', '/sdcard/Download','cenicek');">Download file1</button>
     <button onclick="alert('Hello! I am an alert box!');">Try it</button>
-    <button onclick="a();">a</button>
  
  <script>
 
 
-function otevri(file) {
-      cordova.plugins.fileOpener2.open(
-        file,
-        'application/pdf', // make sure this is the same mimetype as your file
-        {
-          error : function(e) {
-            alert('Error status: ' + e.status + ' - Error message: ' + e.message);
-          },
-          success : function () {
-            console.log('file opened successfully');
-          }
-        }
-      );
-    };
-    
-    
-function otevri2(soubor) {    
-    alert(soubor);
-
-cordova.plugin.pDialog.init({
-    theme : 'HOLO_DARK',
-    progressStyle : 'SPINNER',
-    cancelable : true,
-    title : 'Prosím čekejte',
-    message : 'Stahuji soubor ...' + soubor
-});
-
-var fileTransfer = new FileTransfer();
-
-var uri = encodeURI("http://pujcovaninaradi.cz/download/" + soubor);
-var fileURL = cordova.file.externalRootDirectory + 'Download/files.pdf';
-
-statusDom = document.querySelector('#status');
-
-	fileTransfer.onprogress = function(progressEvent) {
-		if (progressEvent.lengthComputable) {
-			var perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
-			statusDom.innerHTML = perc + "% loaded..." + progressEvent.total;       
-		} else {
-			if(statusDom.innerHTML == "") {
-				statusDom.innerHTML = "Loading";
-			} else {
-				statusDom.innerHTML += ".";
-			}
-		}
-	};
-
- 
-fileTransfer.download(
-    uri,
-    fileURL,
-    function(entry) {
-      cordova.plugin.pDialog.dismiss();
-      var file = entry.toURL();
-      cordova.plugins.fileOpener2.open(
-        file,
-        'application/pdf',
-        {
-          error : function(e) {
-            alert('Error status: ' + e.status + ' - Error message: ' + e.message);
-          },
-          success : function () {
-            console.log('file opened successfully');
-          }
-        }
-    );
-  }
-);
-};    
 
 </script>
+
      <button onclick="otevri('/storage/emulated/0/Download/file.pdf');">Open</button>
       <button onclick="otevri2('cenik.pdf');">Stahni a otevri</button>
       <br>
