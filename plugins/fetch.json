@@ -178,7 +178,7 @@
     "cordova-plugin-file-opener2": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-file-opener2"
+            "id": "https://github.com/Telerik-Verified-Plugins/FileOpener"
         },
         "is_top_level": true,
         "variables": {}

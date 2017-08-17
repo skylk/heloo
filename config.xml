@@ -115,5 +115,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" />
     <plugin name="cordova-plugin-statusbar" spec="~2.1.2" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
-    <plugin name="cordova-plugin-file-opener2" spec="^2.0.19" />
+    <plugin name="cordova-plugin-file-opener2" spec="https://github.com/Telerik-Verified-Plugins/FileOpener" />
+    <engine name="android" spec="~6.2.3" />
 </widget>

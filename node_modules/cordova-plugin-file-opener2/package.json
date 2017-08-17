@@ -2,49 +2,57 @@
   "_args": [
     [
       {
-        "raw": "cordova-plugin-file-opener2",
+        "raw": "https://github.com/Telerik-Verified-Plugins/FileOpener",
         "scope": null,
-        "escapedName": "cordova-plugin-file-opener2",
-        "name": "cordova-plugin-file-opener2",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/Telerik-Verified-Plugins/FileOpener",
+        "spec": "git+https://github.com/Telerik-Verified-Plugins/FileOpener.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:Telerik-Verified-Plugins/FileOpener.git",
+          "sshUrl": "git+ssh://git@github.com/Telerik-Verified-Plugins/FileOpener.git",
+          "httpsUrl": "git+https://github.com/Telerik-Verified-Plugins/FileOpener.git",
+          "gitUrl": "git://github.com/Telerik-Verified-Plugins/FileOpener.git",
+          "shortcut": "github:Telerik-Verified-Plugins/FileOpener",
+          "directUrl": "https://raw.githubusercontent.com/Telerik-Verified-Plugins/FileOpener/master/package.json"
+        }
       },
       "C:\\Users\\Lada\\git\\heloo\\node_modules"
     ]
   ],
-  "_from": "cordova-plugin-file-opener2@latest",
-  "_id": "cordova-plugin-file-opener2@2.0.19",
+  "_from": "git+https://github.com/Telerik-Verified-Plugins/FileOpener.git",
+  "_id": "cordova-plugin-file-opener2@2.0.2",
   "_inCache": true,
   "_location": "/cordova-plugin-file-opener2",
-  "_nodeVersion": "5.12.0",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/cordova-plugin-file-opener2-2.0.19.tgz_1496387012327_0.8553608951624483"
-  },
-  "_npmUser": {
-    "name": "pwlin",
-    "email": "pwlin05@gmail.com"
-  },
-  "_npmVersion": "3.8.6",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "cordova-plugin-file-opener2",
+    "raw": "https://github.com/Telerik-Verified-Plugins/FileOpener",
     "scope": null,
-    "escapedName": "cordova-plugin-file-opener2",
-    "name": "cordova-plugin-file-opener2",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/Telerik-Verified-Plugins/FileOpener",
+    "spec": "git+https://github.com/Telerik-Verified-Plugins/FileOpener.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:Telerik-Verified-Plugins/FileOpener.git",
+      "sshUrl": "git+ssh://git@github.com/Telerik-Verified-Plugins/FileOpener.git",
+      "httpsUrl": "git+https://github.com/Telerik-Verified-Plugins/FileOpener.git",
+      "gitUrl": "git://github.com/Telerik-Verified-Plugins/FileOpener.git",
+      "shortcut": "github:Telerik-Verified-Plugins/FileOpener",
+      "directUrl": "https://raw.githubusercontent.com/Telerik-Verified-Plugins/FileOpener/master/package.json"
+    }
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-2.0.19.tgz",
-  "_shasum": "ca3ae1225395b77ab1fe5b20accbfecc688e2493",
+  "_resolved": "git+https://github.com/Telerik-Verified-Plugins/FileOpener.git#3be9cd114f032485229ed589740e32b8f71d11f7",
+  "_shasum": "c709848f79d2e8d7a5247362291c05a257620a87",
   "_shrinkwrap": null,
-  "_spec": "cordova-plugin-file-opener2",
+  "_spec": "https://github.com/Telerik-Verified-Plugins/FileOpener",
   "_where": "C:\\Users\\Lada\\git\\heloo\\node_modules",
   "author": {
     "name": "pwlin05@gmail.com"
@@ -64,18 +72,13 @@
   "dependencies": {},
   "description": "A File Opener Plugin for Cordova. (The Original Version)",
   "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "ca3ae1225395b77ab1fe5b20accbfecc688e2493",
-    "tarball": "https://registry.npmjs.org/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-2.0.19.tgz"
-  },
   "engines": [
     {
       "name": "cordova",
       "version": ">=3.0.0"
     }
   ],
-  "gitHead": "f08a0fb15495e95f2bbe1fdb65077bd6e036b955",
+  "gitHead": "3be9cd114f032485229ed589740e32b8f71d11f7",
   "homepage": "https://github.com/pwlin/cordova-plugin-file-opener2#readme",
   "keywords": [
     "ecosystem:cordova",
@@ -85,19 +88,13 @@
     "cordova-windows"
   ],
   "license": "MIT",
-  "maintainers": [
-    {
-      "name": "pwlin",
-      "email": "pwlin05@gmail.com"
-    }
-  ],
   "name": "cordova-plugin-file-opener2",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "readme": "Contributors\r\n------------\r\n[@Gillardo](https://github.com/Gillardo/), [@TankOs](https://github.com/TankOs), [@Rovi23](https://github.com/Rovi23), [@josemanuelbd](https://github.com/josemanuelbd), [@ielcoro](https://github.com/ielcoro), [@keturn](https://github.com/keturn), [@conform](https://github.com/conform), [@guyc](https://github.com/guyc)\r\n\r\n\r\nA File Opener Plugin for Cordova (The Original Version)\r\n==========================\r\nThis plugin will open a file on your device file system with its default application.\r\n\r\nCurrent Version: 2.0.2\r\n----------------\r\n\r\nRequirements\r\n-------------\r\n- Android 4 or higher / iOS 6 or higher / WP8\r\n- Cordova 3.0 or higher\r\n\r\nInstallation\r\n-------------\r\n    cordova plugin add cordova-plugin-file-opener2\r\n    \r\nUsage\r\n------\r\n    cordova.plugins.fileOpener2.open(\r\n        filePath, \r\n        fileMIMEType, \r\n        {\r\n            error : function(){ }, \r\n            success : function(){ } \r\n        } \r\n    );\r\n\r\nExamples\r\n--------\r\nOpen an APK install dialog:\r\n\r\n    cordova.plugins.fileOpener2.open(\r\n        '/sdcard/Download/gmail.apk', \r\n        'application/vnd.android.package-archive'\r\n    );\r\n    \r\nOpen a PDF document with the default PDF reader and optional callback object:\r\n\r\n    cordova.plugins.fileOpener2.open(\r\n        '/sdcard/Download/starwars.pdf', // You can also use a Cordova-style file uri: cdvfile://localhost/persistent/Download/starwars.pdf\r\n        'application/pdf', \r\n        { \r\n            error : function(e) { \r\n                console.log('Error status: ' + e.status + ' - Error message: ' + e.message);\r\n            },\r\n            success : function () {\r\n                console.log('file opened successfully'); \t\t\t\t\r\n            }\r\n        }\r\n    );\r\n\r\nNotes\r\n------\r\n\r\n- For properly opening _any_ file, you must already have a suitable reader for that particular file type installed on your device. Otherwise this will not work.\r\n\r\n\r\n- [It is reported](https://github.com/pwlin/cordova-plugin-file-opener2/issues/2#issuecomment-41295793) that in iOS, you might need to remove `<preference name=\"iosPersistentFileLocation\" value=\"Library\" />` from your `config.xml`\r\n\r\n- If you are wondering what MIME-type should you pass as the second argument to `open` function, [here is a list of all known MIME-types](http://svn.apache.org/viewvc/httpd/httpd/trunk/docs/conf/mime.types?view=co)\r\n\r\n\r\nAdditional Android Functions\r\n-----------------------------\r\n####The following functions are available in Android platform\r\n\r\n###.uninstall(_packageId, callbackContext_)\r\nUninstall a package with its id.\r\n\r\n    cordova.plugins.fileOpener2.uninstall('com.zynga.FarmVille2CountryEscape', {\r\n        error : function(e) {\r\n            console.log('Error status: ' + e.status + ' - Error message: ' + e.message);    \r\n        },\r\n        success : function() {\r\n            console.log('Uninstall intent activity started.');\r\n        }\r\n    });\r\n\r\n###.appIsInstalled(_packageId, callbackContext_)\r\nCheck if an app is already installed.\r\n\r\n    cordova.plugins.fileOpener2.appIsInstalled('com.adobe.reader', {\r\n        success : function(res) {\r\n            if (res.status === 0) {\r\n                console.log('Adobe Reader is not installed.');\r\n            } else {\r\n                console.log('Adobe Reader is installed.')\r\n            }\r\n        }\r\n    });\r\n\r\nLICENSE\r\n--------\r\nThe MIT License (MIT)\r\n\r\nCopyright (c) 2013 pwlin - pwlin05@gmail.com\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of\r\nthis software and associated documentation files (the \"Software\"), to deal in\r\nthe Software without restriction, including without limitation the rights to\r\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\r\nthe Software, and to permit persons to whom the Software is furnished to do so,\r\nsubject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\r\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\r\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\r\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\r\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\r\n",
+  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pwlin/cordova-plugin-file-opener2.git"
   },
-  "scripts": {},
-  "version": "2.0.19"
+  "version": "2.0.2"
 }
