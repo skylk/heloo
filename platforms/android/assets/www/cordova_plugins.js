@@ -510,23 +510,6 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-vibration.notification",
-        "file": "plugins/cordova-plugin-vibration/www/vibration.js",
-        "pluginId": "cordova-plugin-vibration",
-        "merges": [
-            "navigator.notification",
-            "navigator"
-        ]
-    },
-    {
-        "id": "cordova-plugin-file-opener2.FileOpener2",
-        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
-        "pluginId": "cordova-plugin-file-opener2",
-        "clobbers": [
-            "cordova.plugins.fileOpener2"
-        ]
-    },
-    {
         "id": "cordova-plugin-native-spinner.SpinnerDialog",
         "file": "plugins/cordova-plugin-native-spinner/www/SpinnerDialog.js",
         "pluginId": "cordova-plugin-native-spinner",
@@ -540,6 +523,14 @@ module.exports = [
         "pluginId": "cordova-plugin-pdialog",
         "clobbers": [
             "cordova.plugin.pDialog"
+        ]
+    },
+    {
+        "id": "cordova-plugin-file-opener2.FileOpener2",
+        "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+        "pluginId": "cordova-plugin-file-opener2",
+        "clobbers": [
+            "cordova.plugins.fileOpener2"
         ]
     }
 ];
@@ -565,11 +556,10 @@ module.exports.metadata =
     "cordova-plugin-network-information": "1.2.1",
     "cordova-plugin-splashscreen": "3.2.2",
     "cordova-plugin-statusbar": "2.1.3",
-    "cordova-plugin-vibration": "2.1.5",
     "cordova-plugin-whitelist": "1.2.2",
-    "cordova-plugin-file-opener2": "2.0.2",
     "cordova-plugin-native-spinner": "1.1.3",
-    "cordova-plugin-pdialog": "2.0.1"
+    "cordova-plugin-pdialog": "2.0.1",
+    "cordova-plugin-file-opener2": "2.0.2"
 };
 // BOTTOM OF METADATA
 });

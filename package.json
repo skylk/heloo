@@ -25,11 +25,10 @@
             "cordova-plugin-network-information": {},
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-statusbar": {},
-            "cordova-plugin-vibration": {},
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-file-opener2": {},
             "cordova-plugin-native-spinner": {},
-            "cordova-plugin-pdialog": {}
+            "cordova-plugin-pdialog": {},
+            "cordova-plugin-file-opener2": {}
         }
     },
     "dependencies": {
@@ -56,7 +55,6 @@
         "cordova-plugin-progressindicator": "git+https://github.com/pbernasconi/cordova-progressIndicator.git",
         "cordova-plugin-splashscreen": "~3.2.1",
         "cordova-plugin-statusbar": "~2.1.2",
-        "cordova-plugin-vibration": "~2.1.0",
         "cordova-plugin-whitelist": "~1.2.1"
     }
 }
