@@ -111,7 +111,7 @@ fileTransfer.download(
     uri,
     fileURL,
     function(entry) {
-      SpinnerDialog.hide();
+      cordova.plugin.pDialog.dismiss();
       var file = entry.toURL();
       cordova.plugins.fileOpener2.open(
         file,
