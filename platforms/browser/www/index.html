@@ -94,7 +94,7 @@ statusDom = document.querySelector('#status');
 			var perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
 			statusDom.innerHTML = perc + "% loaded..." + progressEvent.total;
       // procenta = perc + " %";
-       cordova.plugin.pDialog.setProgress(perc); 
+       
 		} else {
 			if(statusDom.innerHTML == "") {
 				statusDom.innerHTML = "Loading";
@@ -104,7 +104,7 @@ statusDom = document.querySelector('#status');
 		}
 	};
 
-
+ cordova.plugin.pDialog.setProgress(progressEvent.total); 
 
  
 fileTransfer.download(
