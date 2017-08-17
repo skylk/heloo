@@ -78,7 +78,7 @@ function otevri(file) {
     };
     
     
-function otevri2(soubor) {    
+function otevri2() {    
 
 // cordova.plugin.pDialog.init({progressStyle : 'HORIZONTAL', title: 'Prosím čekejte...', message : 'Stahuji soubor...'});
 
@@ -87,12 +87,12 @@ cordova.plugin.pDialog.init({
     progressStyle : 'SPINNER',
     cancelable : true,
     title : 'Prosím čekejte...',
-    message : "Stahuji soubor " + soubor;
+    message : 'Stahuji soubor ';
 });
 
 var fileTransfer = new FileTransfer();
 var procenta;
-var uri = encodeURI("http://pujcovaninaradi.cz/download/" + soubor);
+var uri = encodeURI("http://pujcovaninaradi.cz/download/cenik.pdf");
 var fileURL = cordova.file.externalRootDirectory + 'Download/files.pdf';
 
 statusDom = document.querySelector('#status');
@@ -137,7 +137,7 @@ fileTransfer.download(
 
 </script>
      <button onclick="otevri('/storage/emulated/0/Download/file.pdf');">Open</button>
-      <button onclick="otevri2('cenik.pdf');">Stahni a otevri</button>
+      <button onclick="otevri2();">Stahni a otevri</button>
       <br>
       <div id="status"></div>
 
