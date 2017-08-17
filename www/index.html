@@ -80,7 +80,15 @@ function otevri(file) {
     
 function otevri2() {    
 
-cordova.plugin.pDialog.init({progressStyle : 'HORIZONTAL', title: 'Prosím čekejte...', message : 'Stahuji soubor...'});
+// cordova.plugin.pDialog.init({progressStyle : 'HORIZONTAL', title: 'Prosím čekejte...', message : 'Stahuji soubor...'});
+
+cordova.plugin.pDialog.init({
+    theme : 'HOLO_DARK',
+    progressStyle : 'SPINNER',
+    cancelable : true,
+    title : 'Please Wait...',
+    message : 'Contacting server ...'
+});
 
 var fileTransfer = new FileTransfer();
 var procenta;
@@ -103,8 +111,6 @@ statusDom = document.querySelector('#status');
 			}
 		}
 	};
-
- cordova.plugin.pDialog.setProgress(progressEvent.total); 
 
  
 fileTransfer.download(
