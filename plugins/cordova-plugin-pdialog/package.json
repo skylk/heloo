@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-pdialog",
+        "scope": null,
+        "escapedName": "cordova-plugin-pdialog",
+        "name": "cordova-plugin-pdialog",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Lada\\git\\heloo\\node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-pdialog@latest",
+  "_id": "cordova-plugin-pdialog@2.0.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-pdialog",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "pwlin",
+    "email": "pwlin05@gmail.com"
+  },
+  "_npmVersion": "2.12.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-pdialog",
+    "scope": null,
+    "escapedName": "cordova-plugin-pdialog",
+    "name": "cordova-plugin-pdialog",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-pdialog/-/cordova-plugin-pdialog-2.0.1.tgz",
+  "_shasum": "81cea44abcfb194f69de187a86b6e123daf1e230",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-pdialog",
+  "_where": "C:\\Users\\Lada\\git\\heloo\\node_modules",
+  "author": {
+    "name": "pwlin05@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/pwlin/cordova-plugin-pdialog/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-pdialog",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "An Android Progress Dialog Plugin for Cordova",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "81cea44abcfb194f69de187a86b6e123daf1e230",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-pdialog/-/cordova-plugin-pdialog-2.0.1.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "d28f3499998b5bd4775abc8d47bbf1a875ba39f1",
+  "homepage": "https://github.com/pwlin/cordova-plugin-pdialog#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "pwlin",
+      "email": "pwlin05@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-pdialog",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwlin/cordova-plugin-pdialog.git"
+  },
+  "scripts": {},
+  "version": "2.0.1"
+}

@@ -182,5 +182,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-pdialog": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-pdialog"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

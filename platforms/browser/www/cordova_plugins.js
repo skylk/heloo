@@ -642,6 +642,14 @@ module.exports = [
         "clobbers": [
             "SpinnerDialog"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-pdialog/www/plugins.PDialog.js",
+        "id": "cordova-plugin-pdialog.PDialog",
+        "pluginId": "cordova-plugin-pdialog",
+        "clobbers": [
+            "cordova.plugin.pDialog"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -672,7 +680,8 @@ module.exports.metadata =
     "cordova-plugin-file-opener2": "2.0.19",
     "cordova-plugin-spinner": "1.1.0",
     "cordova-plugin-spinner-dialog": "1.3.1",
-    "cordova-plugin-native-spinner": "1.1.3"
+    "cordova-plugin-native-spinner": "1.1.3",
+    "cordova-plugin-pdialog": "2.0.1"
 }
 // BOTTOM OF METADATA
 });
